@@ -1,0 +1,18 @@
+function getMonthDays(year , month){
+    var stratDate = new Date(year ,month-1,1)��
+         endData = new Date(year ,month,1);
+    var days = (endData -stratDate/(1000*60*60*24);
+    return days;
+}
+Set<String> set = new TreeSet<String>();	
+		while(true){
+			int sui = (int) (Math.random() * 33) + 1;// ��ȡ33���ڵ����� 
+			set.add(sui<10?"0"+sui:""+sui);//��Ԫ�ش��뼯����
+			if (set.size() == 6) {//����������ɫ�������ѭ��
+				break;
+			}
+		}
+		Set<String> set2 = new TreeSet<String>();
+		int sui2 = (int) (Math.random() * 16) + 1;// ��ȡ16���ڵ�����
+		set2.add(sui2<10?"0"+sui2:""+sui2);
+		System.out.println("����" + set + " ����" + set2);
